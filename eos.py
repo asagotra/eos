@@ -54,7 +54,7 @@ def myinput(prompt, default, accepted):
     return res
 
 
-print("Welcome to eos-fit.py")
+print("Welcome to eos.py")
 print()
 fname = input("Filename containing energy vs volume [energy.dat]: ")
 if fname == '': fname = 'energy.dat'
