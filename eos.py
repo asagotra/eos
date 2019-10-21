@@ -38,7 +38,7 @@ def eos_vinet(params, vol):
     E0, B0, Bp, V0 = params 
     eta = (vol/V0)**(1.0/3.0)
     E = E0 + 2.0*B0*V0/(Bp-1.0)**2 * \
-        (2.0 - (5.0 + 3.0*Bp*(eta-1.0) - 3.0*eta)*numpy.exp(-3.0*(Bp-1.0)*(eta-1.0)/2.0))
+        (2.0 - (5.0 + 3.0*Bp*(eta-1.0) - 3.0*eta)*np.exp(-3.0*(Bp-1.0)*(eta-1.0)/2.0))
     return E
 
 
